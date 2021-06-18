@@ -1,0 +1,40 @@
+body{
+    font-family:"Arial", Serif;
+    background-color: azure;
+}
+
+.navbar{
+    background-color: blue;
+    overflow:hidden;
+    height:63px;
+}
+.navbar a{
+    float: left;
+    display:block;
+    color:blueviolet;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+.navbar ul{
+    padding: 8px 0 0 0;
+    list-style-type: style none;
+}
+.navbar a:hover{
+    background-color: lightgray;
+    color: black;
+}
+.side-nav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: darkslategray;
+    opacity:0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    
+}
